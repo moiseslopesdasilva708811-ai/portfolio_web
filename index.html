@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>José Moisés Lopes da Silva — Currículo</title>
+<meta name="description" content="Currículo de José Moisés: Engenharia de Computação (UFRN), Técnico em Informática. Candidato à bolsa de Apoio técnico em TI – TI/EMCM.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--royal:#1747A6;--navy:#0F2F6B;--lime:#98CE15;--gold:#D8B207;--ink:#0C1B2A;--paper:#F2F5F7;--white:#fff;--soft:#4B5E6B}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font:400 1rem/1.65 "Poppins",system-ui,sans-serif}
+h1,h2,h3{line-height:1.1;letter-spacing:-.02em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.btn{display:inline-block;padding:11px 22px;border-radius:999px;font-weight:600;font-size:.95rem;text-decoration:none;border:2px solid currentColor;transition:transform .15s,background .15s,color .15s}
+.btn:hover{transform:translateY(-3px)}
+.btn.lime{background:var(--lime);border-color:var(--lime);color:var(--ink)}
+.pill{display:inline-block;background:var(--royal);color:#fff;font-weight:700;border-radius:999px;padding:3px 20px;font-size:.98rem;margin-bottom:14px}
+
+/* topo */
+.hero{background:var(--royal);color:#fff;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.14) 1.5px,transparent 1.5px);background-size:28px 28px;-webkit-mask-image:linear-gradient(90deg,transparent 40%,#000);mask-image:linear-gradient(90deg,transparent 40%,#000)}
+.hero .wrap{position:relative;z-index:1;padding-top:30px;padding-bottom:64px}
+.stripes{width:132px;height:20px;background:repeating-linear-gradient(115deg,#fff 0 14px,transparent 14px 26px);margin-bottom:34px}
+.hero h1{font-size:clamp(2.4rem,6.4vw,4.8rem);font-weight:800;letter-spacing:-.035em}
+.alvo{display:inline-block;margin-top:22px;border:2px solid #fff;border-radius:14px;padding:9px 18px;font-weight:500;max-width:34em;line-height:1.4}
+.area{margin:16px 0 0;font-weight:700;font-size:1.2rem}
+.area b{color:var(--lime);margin-right:6px}
+.acts{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.hero .btn:not(.lime):hover{background:#fff;color:var(--royal)}
+
+/* corpo */
+.main{display:grid;grid-template-columns:300px 1fr;gap:48px;padding:56px 24px 72px;align-items:start}
+.side{position:sticky;top:24px;display:grid;gap:30px}
+.side h2{font-size:1.05rem;font-weight:700;margin-bottom:10px}
+.side ul{list-style:none;padding:0}
+.side li{margin-bottom:6px;font-size:.95rem}
+.side a{text-underline-offset:4px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips span{border:2px solid var(--ink);border-radius:999px;padding:1px 12px;font-size:.85rem;font-weight:500}
+.sk h3{font-size:.92rem;font-weight:600;margin:14px 0 6px;color:var(--royal)}
+.sk h3:first-of-type{margin-top:0}
+section.blk{margin-bottom:46px}
+section.blk>h2{font-size:1.9rem;font-weight:800;margin-bottom:14px}
+section.blk p{max-width:42em}
+.it{border-left:4px solid var(--royal);padding:2px 0 2px 18px;margin-bottom:18px}
+.it b{display:block;font-weight:600}
+.it span{color:var(--soft);font-size:.93rem}
+.proj{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.card{background:#fff;border:3px solid var(--ink);border-radius:18px;padding:20px 22px;transition:transform .18s,box-shadow .18s}
+.card:hover{transform:translate(-4px,-4px);box-shadow:8px 8px 0 var(--gold)}
+.card.f{grid-column:1/-1;background:var(--navy);color:#fff;border-color:var(--navy)}
+.card h3{font-size:1.2rem;font-weight:700;margin-bottom:6px}
+.card p{font-size:.93rem;line-height:1.55;color:var(--soft)}
+.card.f p{color:#D6E4F7}
+.card .g{margin-top:10px;font-size:.82rem;font-weight:600;color:var(--royal)}
+.card.f .g{color:var(--lime)}
+.req{list-style:none;padding:0}
+.req li{position:relative;padding:11px 0 11px 36px;border-top:2px solid #E1E8EE}
+.req li::before{content:"";position:absolute;left:0;top:15px;width:20px;height:20px;border-radius:50%;background:var(--lime);border:2px solid var(--ink)}
+.req li::after{content:"";position:absolute;left:7px;top:19px;width:5px;height:10px;border:solid var(--ink);border-width:0 2.5px 2.5px 0;transform:rotate(40deg)}
+.req b{font-weight:600;display:block;line-height:1.4}
+.req span{color:var(--soft);font-size:.92rem}
+.contato{background:var(--gold)}
+.contato .wrap{padding-top:52px;padding-bottom:52px}
+.contato h2{font-size:clamp(2.2rem,6vw,4.4rem);font-weight:800;letter-spacing:-.04em;margin-bottom:14px}
+.contato p{max-width:36em;margin-bottom:22px}
+.contato .btn.ink{background:var(--ink);border-color:var(--ink);color:#fff}
+footer{background:var(--navy);color:#A9BCD6;padding:22px 0;font-size:.9rem}
+[hidden]{display:none!important}
+@media (max-width:900px){.main{grid-template-columns:1fr;gap:36px}.side{position:static}.proj{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
+@media print{
+ body{background:#fff;font-size:10.5pt}.hero,.contato,footer{display:none}
+ .main{display:block;padding:0}.side{margin-bottom:18px}.card{border:1px solid #999;break-inside:avoid;box-shadow:none!important;transform:none!important}
+ .card.f{background:#fff;color:var(--ink)}.card.f p{color:var(--soft)}.proj{grid-template-columns:1fr 1fr}
+ .print-head{display:block!important}
+}
+.print-head{display:none;margin-bottom:14px}.print-head h1{font-size:22pt}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+ <div class="stripes" aria-hidden="true"></div>
+ <h1>José Moisés<br>Lopes da Silva</h1>
+ <p class="alvo">Candidato à bolsa de Apoio técnico em Tecnologia da Informação – TI/EMCM</p>
+ <p class="area"><b>»</b>Desenvolvimento/Suporte</p>
+ <div class="acts">
+  <a class="btn lime" href="Curriculo_Jose_Moises_Lopes_da_Silva.pdf" download>Baixar currículo em PDF</a>
+  <a class="btn" id="m1" href="#contato">Falar comigo</a>
+ </div>
+</div></header>
+
+<div class="wrap main">
+ <aside class="side">
+  <div class="print-head"><h1>José Moisés Lopes da Silva</h1><p>Candidato à bolsa de Apoio técnico em TI – TI/EMCM</p></div>
+  <div><h2>Contato</h2><ul id="ct"></ul></div>
+  <div class="sk"><h2>Competências</h2>
+   <h3>Desenvolvimento de sistemas</h3><div class="chips"><span>Python</span><span>JavaScript</span><span>C</span><span>C++</span><span>SQL</span><span>Flask</span><span>FastAPI</span><span>Django</span><span>Node.js</span><span>HTML</span><span>CSS</span><span>Tailwind</span><span>Chart.js</span></div>
+   <h3>Implantação e manutenção</h3><div class="chips"><span>Git</span><span>GitHub</span><span>Docker</span><span>Linux</span></div>
+   <h3>Suporte e infraestrutura</h3><div class="chips"><span>Manutenção de computadores</span><span>Redes</span></div>
+   <h3>IA e dados</h3><div class="chips"><span>PyTorch</span><span>Transformers</span><span>LoRA</span><span>RAG</span><span>ChromaDB</span><span>MLOps</span></div>
+   <h3>Embarcados e IoT</h3><div class="chips"><span>ESP32</span><span>Arduino</span><span>PlatformIO</span><span>I2C</span><span>SPI</span><span>I2S</span></div>
+  </div>
+  <div><h2>Idiomas</h2><ul><li>Português (nativo)</li><li id="en" hidden></li></ul></div>
+ </aside>
+
+ <main>
+  <section class="blk"><span class="pill">Objetivo</span>
+   <p>Concorrer à Seleção de Bolsista de Apoio técnico em TI da EMCM, na área de Desenvolvimento/Suporte, contribuindo com o desenvolvimento de sistemas, o suporte aos usuários e a implantação e manutenção de sistemas já existentes.</p>
+   <p style="margin-top:12px">Estudante do 2º período de Engenharia de Computação na UFRN e Técnico em Informática, com experiência em backend, web, sistemas embarcados e IA. Tenho vontade constante de aprender coisas novas e mantenho meus projetos organizados no GitHub.</p></section>
+
+  <section class="blk"><span class="pill">Formação</span>
+   <div class="it"><b>Bacharelado em Engenharia de Computação</b><span>UFRN (CERES, Caicó) · cursando, 2º período</span></div>
+   <div class="it"><b>Análise e Desenvolvimento de Sistemas (EAD)</b><span>Cursando</span></div>
+   <div class="it"><b>Técnico em Informática</b><span>IFRN, campus Currais Novos · concluído em 2024</span></div></section>
+
+  <section class="blk"><span class="pill">Pesquisa e projetos</span>
+   <div class="proj">
+    <article class="card f"><h3>TinyHub.AI</h3><p>Pesquisa PIBITI 2026-2027 (UFRN/CERES). Plataforma livre (MIT) que automatiza o pipeline de ML embarcado: dados e EDA, treino, quantização INT8/INT4 e geração de código C++ para ESP32. Interface com Wizard, workflow no-code e dashboard, backend em Flask e Tailwind CSS, com suporte a SLMs.</p><p class="g">TinyML · Flask · C++ · Tailwind</p></article>
+    <article class="card"><h3>AquaMind IoT</h3><p>Monitoramento de reservatórios com ESP32 e sensor ultrassônico, bateria e painel solar, com previsão de esvaziamento e risco em três níveis. API REST em Node.js. Apresentado na IX Semana de C&amp;T (ECT/UFRN).</p><p class="g">ESP32 · Node.js · IA embarcada</p></article>
+    <article class="card"><h3>ESP32 Smart Classroom</h3><p>Sistema IoT para reservar e controlar salas de aula, com firmware em C/C++ e comunicação com backend via API.</p><p class="g">ESP32 · PlatformIO · API</p></article>
+    <article class="card"><h3>Painel de análise de votação</h3><p>Dashboard web com gráficos interativos para analisar dados de votação.</p><p class="g">Chart.js · JavaScript · Python</p></article>
+    <article class="card"><h3>Agentes de IA com n8n</h3><p>Agente no Telegram e agente de atendimento para clínica, com fluxos de automação e LLMs.</p><p class="g">n8n · LLM · Telegram</p></article>
+    <article class="card"><h3>RAG e fine-tuning com LoRA</h3><p>Experimentos com LLMs usando PyTorch, Transformers e banco vetorial ChromaDB.</p><p class="g">PyTorch · LoRA · RAG</p></article>
+    <article class="card"><h3>Museu Virtual UFRN e Simulador elétrico</h3><p>Aplicações web em HTML, CSS e JavaScript.</p><p class="g">HTML · CSS · JavaScript</p></article>
+   </div></section>
+
+  <section class="blk"><span class="pill">Requisitos da vaga</span>
+   <ul class="req" id="rq"></ul></section>
+ </main>
+</div>
+
+<section class="contato" id="contato"><div class="wrap">
+ <h2>Vamos conversar.</h2>
+ <p>Inscrições para a Seleção de Bolsista (Apoio técnico em TI – TI/EMCM): de 04/11/2026 a 17/11/2026.</p>
+ <div class="acts"><a class="btn ink" id="m2" href="#contato" hidden></a><a class="btn" href="Curriculo_Jose_Moises_Lopes_da_Silva.pdf" download>Baixar currículo</a></div>
+</div></section>
+<footer><div class="wrap">© <span id="yr"></span> José Moisés Lopes da Silva</div></footer>
+
+<script>
+/* ===== EDITE AQUI ===== */
+const EMAIL="";            /* seu e-mail */
+const TEL="";              /* telefone/WhatsApp */
+const LINKEDIN="";         /* https://www.linkedin.com/in/seu-perfil */
+const GITHUB="";           /* https://github.com/seu-usuario */
+const INGLES="";           /* ex.: "Inglês (intermediário)"; vazio oculta */
+const CADUNICO=false;      /* true SOMENTE se você estiver inscrito no Cadastro Único */
+/* ======================= */
+const $=id=>document.getElementById(id);
+const ct=[];
+if(EMAIL)ct.push(`<a href="mailto:${EMAIL}">${EMAIL}</a>`);
+if(TEL)ct.push(`<a href="tel:${TEL.replace(/[^+\d]/g,"")}">${TEL}</a>`);
+if(LINKEDIN)ct.push(`<a href="${LINKEDIN}" target="_blank" rel="noopener">LinkedIn</a>`);
+if(GITHUB)ct.push(`<a href="${GITHUB}" target="_blank" rel="noopener">GitHub</a>`);
+ct.push("Rio Grande do Norte");
+$("ct").innerHTML=ct.map(x=>`<li>${x}</li>`).join("");
+if(EMAIL){$("m1").href="mailto:"+EMAIL;const m=$("m2");m.href="mailto:"+EMAIL;m.textContent=EMAIL;m.hidden=false}
+if(INGLES){$("en").textContent=INGLES;$("en").hidden=false}
+const R=[...(CADUNICO?[["Estar inscrito no Cadastro Único",""]]:[]),
+["Estar pelo menos no 2º período de Sistemas de Informação ou Engenharia da Computação","2º período de Engenharia de Computação na UFRN (CERES, Caicó)."],
+["Ter noção de manutenção de computadores e redes","Formação como Técnico em Informática no IFRN (2024)."],
+["Vontade de aprender coisas novas","Pesquisa em IA embarcada (TinyHub.AI) e curso de Análise e Desenvolvimento de Sistemas."],
+["Ser organizado, profissional e pontual","Projetos organizados em repositórios no GitHub, com descrição e tecnologias."]];
+$("rq").innerHTML=R.map(([a,b])=>`<li><b>${a}</b>${b?`<span>${b}</span>`:""}</li>`).join("");
+$("yr").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
